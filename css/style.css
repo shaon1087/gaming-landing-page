@@ -1,10 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
 .container{
     padding: 0 240px;
 }
-
+.btn1{
+     
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: 0;
+    background: #F948B2;
+    cursor: pointer;
+}
+.btn2{
+     
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: 0;
+    background: #4EC5F7;
+    cursor: pointer;
+}
 
 
 
@@ -18,10 +47,8 @@ body{
     align-items: center;
     
 }
-.nav-logo{
-    display: flex;
-}
 .nav-image{
+    display: flex;
     width: 86.041px;
     height: 40px;
     padding-top: 49px;
@@ -30,9 +57,10 @@ body{
 }
 .nav-logo p{
     color: #0B0223;
-    font-size: 45px;
+    font-size: 2.7rem;
     font-style: normal;
     font-weight: 700;
+    
      
 }
 .nav-logo p span{
@@ -46,7 +74,7 @@ body{
     padding-left: 32px;
     color: #3C354F;
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
 }
@@ -59,4 +87,55 @@ body{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     margin-left: 25px;
+}
+/* banner part start from here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+
+}
+.ban-text{
+    padding-top: 148px;
+    padding-bottom: 148px;
+}
+.ban-text > h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.ban-text > h1{
+    color: #F948B2 ;
+    text-align: center;
+    font-size: 5.938rem;
+    font-weight: 800;
+}
+.ban-para{
+    color: #534C64;
+    font-size: 1.24rem;
+    font-weight: 500;
+    margin-left: 18px;
+}
+.para{
+   position: relative;
+   padding-bottom: 17px;
+   
+}
+.para i{
+    position: absolute;
+    left: -22px;
+    top: 2px;
+
+    
+
+}
+.ban-text-btn{
+    padding-top: 41px;
+}
+.ban-text-btn button{
+    padding-right: 24px;
+    
 }
